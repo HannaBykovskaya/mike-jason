@@ -31,7 +31,7 @@ const Experience = () => {
 
 
 	return (
-		<section className="px-6 py-10 " id="experience">
+		<section className="px-6 lg:py-10 md:py-10 py-0 mb-10" id="experience">
 			<h2 className="text-4xl md:text-6xl font-medium
 			tracking-tight mb-10">
 				Work Experience

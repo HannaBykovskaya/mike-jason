@@ -51,7 +51,7 @@ const Navbar = () => {
 			</div>
 
 			{menuOpen && (
-				<div className="md:hidden p-2 bg-stone-950/30
+				<div className="md:hidden py-2 px-4 bg-stone-950/30
 				backdrop-blur-lg rounded-xl flex flex-col space-y-4 max-w-6xl mx-auto">
 					{LINKS.map((link, index) => (
 						<a href={link.href} key={index} 

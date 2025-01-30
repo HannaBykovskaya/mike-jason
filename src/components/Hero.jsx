@@ -32,8 +32,8 @@ const imageVariants = {
 
 const Hero = () => {
 	return (
-		<section>
-			<div className="relative z-10 min-h-screen flex flex-wrap
+		<section className="px-6 py-10 lg:py-10 md:py-10 mb-10">
+			<div className="relative z-10 flex flex-wrap
 			flex-col md:flex-row items-center text-white">
 				<motion.div className="w-full md:w-1/2 p-8"
 				initial="hidden"
@@ -66,7 +66,7 @@ const Hero = () => {
 					</motion.a>
 				</motion.div>
 
-				<motion.div className="w-full md:w-1/2 p-8 "
+				<motion.div className="w-full md:w-1/2 p-8 mt-6 lg:mt-0 md:mt-0"
 				initial="hidden"
 				animate="visible"
 				variants={imageVariants}>
