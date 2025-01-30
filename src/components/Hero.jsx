@@ -32,7 +32,7 @@ const imageVariants = {
 
 const Hero = () => {
 	return (
-		<section className="px-6 py-10 lg:py-10 md:py-10 mb-10">
+		<section className="px-0 py-10 lg:py-10 md:py-10 mb-10">
 			<div className="relative z-10 flex flex-wrap
 			flex-col md:flex-row items-center text-white">
 				<motion.div className="w-full md:w-1/2 p-8"
